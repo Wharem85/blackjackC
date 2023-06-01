@@ -171,8 +171,8 @@ string switchControl = "menu";
 
 while (true) {
 	Console.WriteLine(platziCoins);
-	Console.WriteLine("Welcome al Platzino");
-	Console.WriteLine("Cuantos PlatziCoins deseas? \n" + "Ingresa un numero entero \n" + "Recuerda que necesitas una por juego");
+	Console.WriteLine("Welcome al Casino");
+	Console.WriteLine("Cuantos Monedas deseas? \n" + "Ingresa un numero entero \n" + "Recuerda que necesitas una por juego");
 	platziCoins = Convert.ToInt32(Console.ReadLine());
 
 	for (int i = 0; i < platziCoins; i++) {
